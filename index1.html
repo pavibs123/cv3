@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+
+<style>/* Stylesheet 1: */ 
+
+body { 
+
+font: 100% Lucida Sans, Verdana; 
+
+margin: 20px; 
+
+line-height: 26px;
+background-color:purple
+
+} 
+
+
+
+.container { 
+
+xmin-width: 900px; 
+
+} 
+
+
+
+.wrapper { 
+
+position: relative; 
+
+overflow: auto; 
+
+} 
+
+
+
+#top, #sidebar, #bottom, .menuitem { 
+
+border-radius: 4px; 
+
+margin: 4px; 
+
+} 
+
+
+
+#top { 
+
+background-color: pink; 
+
+color: #ffffff; 
+
+padding: 15px; 
+
+} 
+
+
+
+#menubar { 
+
+width: 200px; 
+
+float: left 
+
+} 
+
+
+
+#main { 
+
+padding: 10px; 
+
+margin: 0 210px; 
+
+} 
+
+
+
+#sidebar { 
+
+background-color: pink; 
+
+color: #ffffff; 
+
+padding: 10px; 
+
+width: 180px; 
+
+bottom: 0; 
+
+top: 0; 
+
+right: 0; 
+
+position: absolute; 
+
+} 
+
+
+
+#bottom { 
+
+border: 1px solid green; 
+
+background-color: pink; 
+
+text-align: center; 
+
+padding: 10px; 
+
+font-size: 70%; 
+
+line-height: 14px; 
+
+} 
+
+
+
+#top h1, #top p, #menulist { 
+
+margin: 0; 
+
+padding: 0; 
+
+} 
+
+
+
+.menuitem { 
+
+background-color: pink; 
+
+border: 1px solid green; 
+
+list-style-type: none; 
+
+padding: 2px; 
+
+ 
+
+} 
+
+
+
+.menuitem:hover { 
+
+background-color: pink; 
+
+} 
+
+
+
+.menuitem:first-child { 
+
+background-color:pink; 
+
+ 
+
+} 
+
+
+
+a { 
+
+color: #000000; 
+
+text-decoration: underline; 
+
+} 
+
+
+
+a:hover { 
+
+text-decoration: none; 
+
+} 
+
+
+
+
+
+@media (max-width: 800px) { 
+
+#sidebar { 
+
+width: auto; 
+
+position: relative; 
+
+} 
+
+#main { 
+
+margin-right: 0; 
+
+} 
+
+
+
+} 
+
+
+
+@media (max-width: 600px) { 
+
+#menubar { 
+
+width: auto; 
+
+float: none; 
+
+} 
+
+#main { 
+
+margin: 0; 
+
+} 
+
+} 
+
+</style> 
+ 
+</head> 
+
+<body> 
+
+
+
+<div class="container wrapper"> 
+
+<div id="top"> 
+
+<h1>Welcome </h1> 
+
+
+</div> 
+
+<div class="wrapper"> 
+
+<div id="menubar"> 
+
+<ul id="menulist"> 
+
+<li class="menuitem" onclick="reStyle(0)">Qualification
+
+<li class="menuitem" onclick="reStyle(1)">Language
+
+<li class="menuitem" onclick="reStyle(2)">Hobbies
+
+<li class="menuitem" onclick="reStyle(3)">Achivements
+
+<li class="menuitem" onclick="noStyles()">Extra curricular activites 
+
+</ul> 
+
+</div> 
+
+<div id="main"> 
+
+
+
+<h1>PROFILE</h1> 
+<p><br>
+
+<table cellspacing="20">
+<tr>
+	<td>
+
+               <img src="C:\Users\Pavithra BS\Pictures\Camera Roll\pavithra.jpg" alt="profile photo" height="300" width="300">
+	</td>
+	<td> 
+		
+		<h3> Pavithra B S </h3>
+		<h3>  9902399573 <h3>
+		<h3>  pavithrabs.321@gmail.com <h3>
+	</td>
+	<td>
+		
+</tr>
+</table>
+
+
+<h2> details <a href="sit.ac.in">link> </a> </h2>
+<h2>email <a href="mailto:pavithrabs.321@gmail.com"> mail link </a> </h2>
+
+<hr>
+
+<h5><font size="5"> Qualification </font> </h5>
+<p>  <em> B.E Computer Science </em> </p>
+<p> 5th sem </p>
+<p> Siddaganga Institute of Tecnology,Tumkur </p>
+
+<hr>
+
+<h4><font size="4">karnataka state board </font> </h4>
+<p> <em>SSLC </em> </p>
+<p> Saint joseph public school </p>
+<p> 93.78% </p>
+<h3> Books and teaching </h3>
+<hr>
+<h1> Languages </h1>
+<p>  kannada,English,Hindi
+<p>  tecnical:C,C++,Java etc
+<h2> Hobbies </h2>
+<p> Reading Books </p>
+<p> Watching Movies etc </p>
+<hr>
+<h2> Achivements </h2>
+<p> state level shuttle player </p>
+<hr>
+<h2>Extra Curricular Activities </h2>
+<p> player in shuttle team </p>
+<p> participated in the events organised  by the college teams like Avalanche,halcyon etc </p>
+<hr>
+<form action="index.html"method="get">
+First name:<input type="text"name="fname"><br>
+Last name:<input type="text" name="lname"><br>
+<input type="submit" value="submit">
+ 
+
+</p> 
+
+
+
+
+
+</body> 
+
+</html> 
+
+
+
